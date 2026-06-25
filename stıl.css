@@ -1,0 +1,748 @@
+body{
+	
+
+	
+	
+}
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.ust{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:0;
+	padding:0;
+
+	
+}
+
+.logo{
+	width:140px;
+	height:100px;
+}
+
+.logo img{
+	width:140px;
+	height:100px;
+	margin:0;
+	padding:0;
+	
+	
+}
+.arama{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:0;
+	padding:0;
+	
+}
+.arama input{
+
+	display:flex;
+	width:500px;
+	height:40px;
+	padding:10px;
+	margin:20px;
+	border-radius:30px;
+}
+.arama button{
+	width:50px;
+	height:30px;
+}
+.orta{
+	margin:0;
+	padding:0;
+}
+.alt-menu{
+	display:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	margin-bottom:0;
+
+}
+li:hover .alt-menu{
+	display:block;
+	
+}
+nav{
+	background:linear-gradient(90deg,#990000,#ffffff);
+	margin:0;
+
+	
+}
+nav a{ 
+     transition:0.3s;
+}
+nav a:hover{
+	background:white;
+	color:red;
+	border-radius:10px;
+}
+nav ul{
+	display:flex;
+	list-style:none;
+	gap:30px;
+	padding:15px;
+
+}
+nav ul li a{
+	color:black;
+	text-decoration:none;
+	font-size:17px;
+}
+
+nav ul li a:hover{
+	color:red;
+}
+.slider{
+	width:100%;
+	height:350px;
+	overflow:hidden;
+	margin-top:0;
+	padding-top:0;
+	
+	
+}
+.resim{
+	width:100%;
+	height:380px;
+	object-fit:cover;
+}
+.alt{
+	font-family:New Times Romen;
+	font-size:20px;
+	display:flex;
+	align-items:center;
+	margin-bottom:10px;
+	gap:30px;
+	
+}
+
+
+.alt img{
+	margin:10px;
+	padding:10px;
+	width:150px;
+	height:150px;
+	
+}
+.alt2{
+	display:flex;
+	padding:10px;
+	margin:10px;
+	gap:30px;
+	
+}
+
+.foto3{
+      align-items:center;
+	  
+	 
+	
+}
+.foto3 img{
+	width:150px;
+	height:150px;
+	
+	
+}
+.foto4{
+	
+	align-items:center;
+	
+}
+.foto4 img{
+	width:150px;
+	height:150px;
+	
+}
+
+.foto5{
+	align-items:center;
+	
+	
+}
+.foto5 img{
+	width:150px;
+	height:150px;
+	
+}
+.foto6{
+	align-items:center;
+	
+}
+.foto6 img{ 
+    width:150px;
+	height:150px;
+}
+.foto7{
+	align-items:center;
+	
+}
+.foto7 img{ 
+    width:150px;
+	height:150px;
+}
+.foto8{
+	align-items:center;
+	
+}
+.foto8 img{ 
+    width:150px;
+	height:150px;
+}
+.foto9{
+}
+.foto9 img{
+	width:150px;
+	height:150px;
+}
+.bil{
+    align-items:center;
+	padding:0;
+	margin:0;
+	
+}
+.bil img{
+	width:200px;
+	height:200px;
+}
+.bil1{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil1 img{
+	width:200px;
+	height:200px;
+}
+.bil2{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil2 img{
+	width:200px;
+	height:200px;
+}
+.bil3{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil3 img{
+	width:200px;
+	height:200px;
+}
+
+.bil4{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil4 img{
+	width:200px;
+	height:200px;
+}
+.bil5{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil5 img{
+	width:200px;
+	height:200px;
+}
+.bil6{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil6 img{
+	width:200px;
+	height:200px;
+}
+.bil7{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil7 img{
+	width:200px;
+	height:200px;
+}
+.bil8{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil8 img{
+	width:200px;
+	height:200px;
+}
+.bil9{
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+.bil9 img{
+	width:200px;
+	height:200px;
+}
+
+.tel{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+
+.tel img{
+	
+		width:200px;
+	    height:200px;
+}
+
+.tel2{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel2 img{
+	
+		width:200px;
+	    height:200px;
+}
+
+.tel3{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel3 img{
+	
+		width:200px;
+	    height:200px;
+}
+.tel4{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel4 img{
+	
+		width:200px;
+	    height:200px;
+}
+.tel5{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel5 img{
+	
+		width:200px;
+	    height:200px;
+}
+.tel6{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel6 img{
+	
+		width:200px;
+	    height:200px;
+}
+.tel7{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel7 img{
+	
+		width:200px;
+	    height:200px;
+}
+.tel8{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel8 img{
+	
+		width:200px;
+	    height:200px;
+}
+.tel9{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:20px;
+}
+.tel9 img{
+	
+		width:200px;
+	    height:200px;
+}
+.kul1{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+	
+}
+.kul1 img{
+	width:250px;
+	height:250px;
+}
+.kul2{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul2 img{
+	width:200px;
+	height:200px;
+}
+.kul3{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+	
+}
+.kul3 img{
+	width:200px;
+	height:200px;
+}
+.kul4{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul4 img{
+	width:200px;
+	height:200px;
+}
+.kul5{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul5 img{
+	width:200px;
+	height:200px;
+}
+.kul6{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul6 img{
+	width:200px;
+	height:200px;
+}
+.kul7{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul7 img{
+	width:200px;
+	height:200px;
+}
+.kul8{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul8 img{
+	width:200px;
+	height:200px;
+}
+.kul9{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul9 img{
+	width:200px;
+	height:200px;
+}
+.kul10{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.kul10 img{
+	width:200px;
+	height:200px;
+}
+
+.klavye img{
+	width:150px;
+	height:150px;
+}
+
+.klavye1{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye1 img{
+	    width:150px;
+	    height:150px;
+}
+.klavye2{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye2 img{
+	    width:150px;
+	    height:150px;
+}
+.klavye3{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye3 img{
+	    width:150px;
+	    height:150px;
+}
+.klavye4{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye4 img{
+	    width:150px;
+	    height:150px;
+}
+.klavye5{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye5 img{
+	    width:150px;
+	    height:150px;
+}
+.klavye6{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye6 img{
+	    width:150px;
+	    height:150px;
+}
+.klavye7{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye7 img{
+	    width:150px;
+	    height:150px;
+}
+.klavye8{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:20px;
+}
+.klavye8 img{
+	    width:150px;
+	    height:150px;
+}
+.mouse1{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.mouse1 img{ 
+         width:200px;
+		 height:200px;
+}
+.mouse2{
+	align-items:center;
+	padding:0;
+	margin:0;
+	gap:30px;
+}
+.mouse2 img{ 
+         width:200px;
+		 height:200px;
+}
+
+.mouse3{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:30px;
+	
+}
+.mouse3 img{ 
+	      width:200px;
+	      height:200px;
+		  object-fit:contain;
+}
+.mouse4{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:30px;
+	
+}
+.mouse4 img{ 
+	      width:200px;
+	      height:200px;
+		  object-fit:contain;
+}
+.mouse5{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:30px;
+	
+}
+.mouse5 img{ 
+	      width:200px;
+	      height:200px;
+		  object-fit:contain;
+}
+.mouse6{
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:30px;
+	
+}
+.mouse6 img{ 
+	      width:200px;
+	      height:200px;
+		  object-fit:contain;
+}
+.mouse7{
+	
+		align-items:center;
+	    padding:0;
+	    margin:0;
+	    gap:30px;
+	
+}
+.mouse7 img{ 
+	      width:200px;
+	      height:200px;
+		  object-fit:contain;
+		  
+}
+.iletişim{
+	justify-content:center;
+		align-items:center;
+		
+}
+
+.yardım{
+	width:200px;
+	margin:20px auto;
+	padding:20px;
+	border:1px solid gray;
+	text-align:center;
+	
+}
+.yardım input{
+	width:95%;
+	padding:10px;
+}
+.yardım textarea{
+	width:95%;
+	padding:10px;
+}
+.yardım button{
+	width:95%;
+	padding:10px;
+	background-color:black;
+	color:white;
+}
+
+.Giriş{
+	 width:300px;
+	 margin:50px auto;
+	 padding:20px;
+	 border:1px solid gray;
+	 text-align:center;
+}
+.Giriş input{
+	    width:95%;
+		padding:10px;
+		margin:10px;
+		align-items:center;
+	    display:block;
+}
+.Giriş button{
+	width:95%;
+	padding:10px;
+	background-color:black;
+	color:white;
+}
+.Kayit{
+	width:300px;
+	margin:50px auto;
+	padding:20px;
+	border:1px solid gray;
+	text-align:center;
+}
+.Kayit input{
+	width:95%;
+	padding:10px;
+	margin:10px;
+	align-items:center;
+	display:block;
+}
+.Kayit button{
+	width:95%;
+	padding:10px;
+	background-color:black;
+	color:white;
+}

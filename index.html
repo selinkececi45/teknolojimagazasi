@@ -1,0 +1,148 @@
+<html>
+<head>
+<link rel="stylesheet" href="stıl.css">
+</head>
+<body>
+<div class="ust">
+  <div class="logo">
+   <img src="resimler/Logo.png">
+   </div>
+  <div class="arama">
+    <input type="text" placeholder="Ürün arayınız">
+	<button>Ara</button>
+  </div> 
+  </div>
+  <div class="orta">
+  <nav>
+        <ul>
+		<li><a href="#">Anasayfa</a></li>
+     
+		<li>
+		<a href="#">Ürünler</a>
+		<ul class="alt-menu">
+		<li><a href="Bilgisayarlar.html"><a></li>
+		<button onclick="window.location.href='Bilgisayarlar.html'">Bilgisayarlar</button>
+        <li><a href="Telefon.html"></a></li>
+		<button onclick="window.location.href='Telefon.html'">Telefon</button>
+        <li><a href="Kulaklık.html"></a></li>
+		<button onclick="window.location.href='Kulaklık.html'">Kulaklık</button>
+		<li><a href="Klavye.html"></a></li>
+		<button onclick="window.location.href='Klavye.html'">Klavye</button>
+        <li><a href="Mouse.html"></a></li>
+		<button onclick="window.location.href='Mouse.html'">Mouse</button>
+        </ul>
+		</li>
+		
+		<li><a href="sepet.html">Sepetim</a></li>
+		<li><a href="İletişim.html">İletişim</a></li>
+        <li><a href="Girişyap.html">Üye girişi</a></li>
+		<li><a href="KayıtOl.html">Kayıt Ol</a></li>
+        </ul>
+    </nav>
+<div class="slider">
+<img class="resim" src="resimler/foto1.png">
+<img class="resim" src="resimler/foto2.png">
+<img class="resim" src="resimler/foto3.png">
+<img class="resim" src="resimler/foto4.png">
+</div>
+</div>
+<script>
+let index = 0;
+let resimler = document.getElementsByClassName("resim");
+
+function slider(){
+       for(let i=0; i<resimler.length; i++){
+	         resimler[i].style.display="none";
+	   }
+	    resimler[index].style.display="block";
+		index++;
+		if(index >= resimler.length){
+		index=0;
+		}
+}
+
+slider();
+setInterval(slider,3000);
+</script>
+<div class="alt">
+<div class="foto">
+   <p><b>YENİ GELEN ÜRÜNLER</p></b>
+   <img src="resimler/asusbil.png">
+   <h2>Laptop</h2>
+   <p>Asus Vivobook 15 1.Nesil Core 5</p>
+   <span>22.900 TL</span>
+   <button>Sepete Ekle</button>
+   </div>
+   <div class="foto1">
+   <img src="resimler/excaliburkul.png">
+   <h2>Kulaklık</h2>
+   <p>Excalibur GH21 Kablolu RGB Gaming Kulaklık </p>
+   <span>1.599 TL</span>
+   <button>Sepete Ekle</button>
+   </div>
+   <div class="foto2">
+   <img src="resimler/iphone16.png">
+   <h2>Telefon</h2>
+   <p>Apple Iphone16 128GB </p>
+   <span>59.499 TL</span>
+   <button>Sepete Ekle</button>
+   </div>
+   <div class="foto3">
+   <img src="resimler/Karlerkulaklık.png">
+   <h2>Kulaklık</h2>
+   <p>Karler Bass R9000 RGB Mikrofonlu </p>
+   <p>Oyuncu Kulaklığı </p>
+   <span>1.850 TL</span>
+   <button>Sepete Ekle</button>
+   </div>
+   <div class="foto4">
+   <img src="resimler/klavyelo.png">
+   <h2>Klavye</h2>
+   <p>Logitech® Kablolu F Klavye </p>
+   <p>K120 Kablolu Klavye</p>
+   <span>1.075 TL</span>
+   <button>Sepete Ekle</button>
+   </div>
+   </div>
+<div class="alt2">   
+   <div class="foto5">
+   <img src="resimler/mouselo.png">
+   <h2>Mouse</h2>
+   <p>Logitech G502 Hero </p>
+   <p>Optik Kablolu Oyuncu Mouse</p>
+   <p>Kablolu Mouse</p>
+   <span>1.699 TL</span>
+   <button>Sepete Ekle</button>
+   </div>
+   <div class="foto6">
+   <img src="resimler/beyaz.png">
+   <h2>Kulaklık</h2>
+   <p>LOGITECH G305 Lıgtspeed 12000 DPI </p>
+   <p>Kablosuz Gamıng Mouse</p>
+   <span>1.499,00 TL</span>
+   <button>Sepete Ekle</button>
+</div>
+    <div class="foto7">
+   <img src="resimler/jbl.png">
+   <h2>Kablolu Oyuncu Kulaklığı</h2>
+   <p>JBL Quantum 100M2 Gaming Kablolu Kulaklık </p>
+   <span>1.779,00TL</span>
+   <button>Sepete Ekle</button>
+</div>
+   <div class="foto8">
+   <img src="resimler/hadron.png">
+   <h2>Kulaklık</h2>
+   <p>HADRON HD5671 2400DPI Renkli Oyuncu Maouse</p>
+   <span>417,29 TL</span>
+   <button>Sepete Ekle</button>
+</div>
+  <div class="foto9">
+  <img src="resimler/asusdiz.png">
+  <h2>Masaüstü Bilgisayar</h2>
+  <p>ASUS V400 AİO INTEL CORE 7 240H 2.5GHZ 16GB</p>
+  <span>70.000,00TL</span>
+  <button>Sepete Ekle</button>
+</div>
+</div>
+</body>
+</html>
